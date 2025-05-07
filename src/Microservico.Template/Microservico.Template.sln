@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservico.Template.Api", "Microservico.Template.Api", "{B06DCB27-4FF5-4C30-B156-C23D5C7BEBD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservico.Template.Api", "Microservico.Template.Api\Microservico.Template.Api.csproj", "{0DFEDF81-FCC7-4C83-B917-8820EFBFB597}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservico.Template.Application", "Microservico.Template.Application", "{2F84301F-51EC-45D2-8725-B3613C2468F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservico.Template.Application", "Microservico.Template.Application\Microservico.Template.Application.csproj", "{28AF56F3-5511-4D81-82F9-1CCFA7F9B6F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservico.Template.Domain", "Microservico.Template.Domain", "{20BC907C-5604-487D-9053-A4DB56C4D958}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservico.Template.Domain", "Microservico.Template.Domain\Microservico.Template.Domain.csproj", "{B31F72D1-BBB4-4DAD-9C53-06CA8E0B6641}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservico.Template.Infrastructure", "Microservico.Template.Infrastructure", "{8618C7ED-69B7-43AA-8ADC-A8AA220A5947}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservico.Template.Infra.MongoDb", "Microservico.Template.Infra.MongoDb\Microservico.Template.Infra.MongoDb.csproj", "{22FA5DFA-D6AB-45ED-8D8B-EDF294EFE602}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservico.Template.Infra.Sql", "Microservico.Template.Infra.Sql\Microservico.Template.Infra.Sql.csproj", "{DF29B4E1-7952-4424-A738-B0260C37850A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservico.Template.BackgroudJobs", "Microservico.Template.BackgroudJobs", "{F370205D-A6B1-4D2A-98B3-3FB565B4F3CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservico.Template.Jobs", "Microservico.Template.Jobs\Microservico.Template.Jobs.csproj", "{B9779F02-2E71-468E-86F2-C6ACA52B9DA3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DFEDF81-FCC7-4C83-B917-8820EFBFB597}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DFEDF81-FCC7-4C83-B917-8820EFBFB597}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DFEDF81-FCC7-4C83-B917-8820EFBFB597}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DFEDF81-FCC7-4C83-B917-8820EFBFB597}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28AF56F3-5511-4D81-82F9-1CCFA7F9B6F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28AF56F3-5511-4D81-82F9-1CCFA7F9B6F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28AF56F3-5511-4D81-82F9-1CCFA7F9B6F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28AF56F3-5511-4D81-82F9-1CCFA7F9B6F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B31F72D1-BBB4-4DAD-9C53-06CA8E0B6641}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B31F72D1-BBB4-4DAD-9C53-06CA8E0B6641}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B31F72D1-BBB4-4DAD-9C53-06CA8E0B6641}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B31F72D1-BBB4-4DAD-9C53-06CA8E0B6641}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22FA5DFA-D6AB-45ED-8D8B-EDF294EFE602}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22FA5DFA-D6AB-45ED-8D8B-EDF294EFE602}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22FA5DFA-D6AB-45ED-8D8B-EDF294EFE602}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22FA5DFA-D6AB-45ED-8D8B-EDF294EFE602}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF29B4E1-7952-4424-A738-B0260C37850A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF29B4E1-7952-4424-A738-B0260C37850A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF29B4E1-7952-4424-A738-B0260C37850A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF29B4E1-7952-4424-A738-B0260C37850A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9779F02-2E71-468E-86F2-C6ACA52B9DA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9779F02-2E71-468E-86F2-C6ACA52B9DA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9779F02-2E71-468E-86F2-C6ACA52B9DA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9779F02-2E71-468E-86F2-C6ACA52B9DA3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0DFEDF81-FCC7-4C83-B917-8820EFBFB597} = {B06DCB27-4FF5-4C30-B156-C23D5C7BEBD9}
+		{28AF56F3-5511-4D81-82F9-1CCFA7F9B6F4} = {2F84301F-51EC-45D2-8725-B3613C2468F4}
+		{B31F72D1-BBB4-4DAD-9C53-06CA8E0B6641} = {20BC907C-5604-487D-9053-A4DB56C4D958}
+		{22FA5DFA-D6AB-45ED-8D8B-EDF294EFE602} = {8618C7ED-69B7-43AA-8ADC-A8AA220A5947}
+		{DF29B4E1-7952-4424-A738-B0260C37850A} = {8618C7ED-69B7-43AA-8ADC-A8AA220A5947}
+		{B9779F02-2E71-468E-86F2-C6ACA52B9DA3} = {F370205D-A6B1-4D2A-98B3-3FB565B4F3CB}
+	EndGlobalSection
+EndGlobal
